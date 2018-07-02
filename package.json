@@ -4,7 +4,8 @@
   "description": "Simple cli for generate typescript class",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts:class": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/Clebiez/typescript-cli-generator/issues"
   },
-  "homepage": "https://github.com/Clebiez/typescript-cli-generator#readme"
+  "homepage": "https://github.com/Clebiez/typescript-cli-generator#readme",
+  "dependencies": {
+    "inquirer": "^6.0.0",
+    "inquirer-recursive": "0.0.5"
+  }
 }
