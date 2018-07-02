@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const inquirer = require('inquirer');
 const inquirerRecursive = require('inquirer-recursive');
 const fs = require('fs');
