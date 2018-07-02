@@ -96,7 +96,7 @@ inquirer
             answers.properties.forEach(property => {
                 if (property.accessors.indexOf('getter') !== -1) {
                     str += `
-    public get ${toCamelCase(property.name)}():${property.type} {
+    public get ${toCamelCase(property.name)}(): ${property.type} {
         return this._${toCamelCase(property.name)}
     }`;
                 }
