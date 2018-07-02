@@ -1,0 +1,25 @@
+{
+  "name": "typescript-cli-generator",
+  "version": "0.0.1",
+  "description": "Simple cli for generate typescript class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clebiez/typescript-cli-generator.git"
+  },
+  "keywords": [
+    "typescript",
+    "class",
+    "generator",
+    "node"
+  ],
+  "author": "Clément Le Biez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Clebiez/typescript-cli-generator/issues"
+  },
+  "homepage": "https://github.com/Clebiez/typescript-cli-generator#readme"
+}
