@@ -2,7 +2,7 @@
 
 Simple cli for generate typescript class.
 
-## Installation
+## Installation
 
 Use it in global mode :
 
@@ -12,7 +12,7 @@ Or just in your repo :
 
 `npm i typescript-cli-generator -D`
 
-## Usage
+## Usage
 
 Simply type `ts:class` in your shell.
 And follow questions ;) !
