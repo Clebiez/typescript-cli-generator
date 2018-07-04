@@ -87,6 +87,15 @@ inquirer
         });
 
         str += `
+    constructor(obj: object) {
+        Object.assign(this, obj);
+    }
+
+    public static generateFromArray(arr: Array<object>): Array<${toPascalCase(answers.className)}> {
+        return arr.map(obj => {
+            return new ${toPascalCase(answers.className)}(obj);
+        });
+    }
 
     // ======================
     // |      ACCESSORS     |
